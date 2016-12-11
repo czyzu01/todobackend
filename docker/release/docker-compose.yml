@@ -59,7 +59,7 @@ db:
     MYSQL_ROOT_PASSWORD: password
 
 agent:
-  image: czyzu01/ansible
+  image: czyzu01/todobackend-ansible
   volumes: 
     - ../../ansible/probe.yml:/ansible/site.yml
   links:
