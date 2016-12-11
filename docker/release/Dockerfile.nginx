@@ -1,0 +1,5 @@
+FROM nginx
+MAINTAINER Maciej Czyzowicz <czyzu01@gmail.com>
+
+# Copy configruation file
+COPY todobackend.conf /etc/nginx/conf.d/todobackend.conf
